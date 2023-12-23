@@ -15,6 +15,7 @@
 #
 import os
 import sys
+import sphinx_rtd_theme
 # sys.path.insert(0, os.path.abspath('.'))
 
 
@@ -28,6 +29,12 @@ author = 'Qiang Sun'
 version = ''
 # The full version, including alpha/beta/rc tags
 release = '0.1.0'
+
+from recommonmark.parser import CommonMarkParser
+source_parsers = {
+    '.md': CommonMarkParser,
+}
+
 
 
 # -- General configuration ---------------------------------------------------
@@ -49,10 +56,12 @@ extensions = [
     'sphinx.ext.ifconfig',
     'sphinx.ext.viewcode',
     'sphinx.ext.githubpages',
+    'recommonmark',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
+
 
 # The suffix(es) of source filenames.
 # You can specify multiple suffix as a list of string:
@@ -86,6 +95,7 @@ pygments_style = None
 #
 # html_theme = 'alabaster'
 html_theme = "sphinx_rtd_theme"
+html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
