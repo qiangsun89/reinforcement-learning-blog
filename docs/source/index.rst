@@ -8,7 +8,9 @@
 
 .. toctree::
    :maxdepth: 2
-   :caption: 目录
+   :caption: 课程学习
+
+   courses/shiyu-zhao/intro
 
 
 
