@@ -3,16 +3,16 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to reinforcement-learning's documentation!
+强化学习文档
 ==================================================
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: 目录
 
 
 
-Indices and tables
+索引和目录
 ==================
 
 * :ref:`genindex`
