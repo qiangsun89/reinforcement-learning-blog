@@ -7,10 +7,11 @@
 ==================================================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :caption: 课程学习
 
    courses/shiyu-zhao/intro
+   courses/open_courses/intro
 
 
 

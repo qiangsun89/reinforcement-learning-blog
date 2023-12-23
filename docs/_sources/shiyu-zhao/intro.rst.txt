@@ -1,0 +1,18 @@
+===============================
+西湖大学Shiyu-zhao强化学习课程
+===============================
+.. contents:: 目录
+
+
+书籍推荐
+=============
+计算机领域
+=============
+
+* R. S. Sutton and A. G. Barto, Reinforcement learning: An introduction (2nd Edition). MIT Press, 2018.(被誉为强化学习领域内的圣经)
+* C. Szepesvari, Algorithms for reinforcement learning. Springer, 2010.
+
+自动控制领域
+================
+* C. Szepesvari, Algorithms for reinforcement learning. Springer, 2010.
+
